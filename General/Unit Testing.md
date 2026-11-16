@@ -19,7 +19,7 @@ this can be done two ways,
 	```.net
 	cd Project_Src.Tests
 	dotnet new nunit
-	dotnet add reference ../Project_Src.csproj 
+	dotnet add reference ../Project_Src/Project_Src.csproj 
 	```
 
 	3. Run the final command to make link the unit test's `.csproj` with the overall project `.sln` file
